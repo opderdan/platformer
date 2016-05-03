@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html >
+  <head>
+      
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>BILD Plattformen</title>
+    <meta name="description" content="BILD denkt in Plattformen!">
+    <meta name="keywords" content="facebook, instant articles, twitter, periscope, instagram, buzz, youtube, snapchat ..." />
+    <meta name="author" content="Daniel Opderbeck" />
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+      
+    <!-- JS -->  
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+      
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.css">  
+          
+      
+  </head>
+
+  <body>
+
+       <!-- CONTENT ELEMENTS -->
+      
+          <div class="brand"></div>
+          <div class="bg_skyline"></div>
+          <div class="bg_clouds"></div>
+          
+          <div class="facebook expandUp">
+              <div class="facebook_back"></div>
+              <div class="eye">
+                  <div class="iris anim"></div>
+              </div>
+          </div>
+          
+          <div class="ia expandUp">
+              <div class="ia_back"></div>
+               <div class="ia_phones"></div>
+          </div>
+      
+          <div class="twitter birdbounce">
+              <div class="twitter_back"></div>
+              <div class="twitter_beak"></div> 
+              <div class="twitter_hash"></div> 
+              
+          </div>
+          
+          <div class="snapchat snapfloat">
+              <div class="snapchat_back"></div>
+              <div class="snapchat_rotor"></div>
+          </div>
+          
+          <div class="home expandUp">
+              <div class="home_back"></div>
+              <div class="home_lift">
+                 <div class="home_pop homequotePop"></div>
+              </div>
+          </div>
+          
+          <div class="youtube youfloat">
+              <div class="youtube_back"></div>
+              <div class="youtube_blink"></div>
+              <div class="youtube_hg tossing"></div>
+          </div>
+          
+          <div class="buzz">
+              <div class="buzz_back pulse"></div>
+              <div class="buzz_lightning"></div>
+          </div>
+          
+          <div class="vr expandUp">
+              <div class="vr_back"></div>
+              <div class="vr_wheel1"></div>
+              <div class="vr_wheel2"></div>
+          </div>
+      
+          <div class="kai expandUp">
+              <div class="kai_back"></div>
+               <div class="kai_phone youfloat"></div>
+          </div>
+          
+          <div class="periscope expandUp">
+              <div class="periscope_back"></div>
+              <div class="particle-box"></div>
+              <div class="periscope_pipe floatingpipe"></div>
+              <div class="wheel1"></div>
+              <div class="wheel2"></div>
+              <div class="wheel3"></div>
+              <div class="wheel4"></div>
+          </div>
+          
+          <div class="mobile">
+            <div class="zeppelin3"></div>
+            <div class="zeppelin2"></div>
+            <div class="zeppelin1"></div>
+              <div class="zeppelin5"></div>
+          </div>
+          
+          <div class="instagram floating">
+            <div class="insta_back"></div>
+            <div class="insta_front tossing">
+                <div class="insta_daily quotePop"></div>
+            </div>
+            <div class="insta_pic pullDown"></div>
+          </div>
+      
+      <!-- BUTTONS -->
+
+        <div>
+            <a class="btn_fullscreen btn-info" id="fullscreen-button" href="#"><i class="fa fa-expand"></i></a>
+            <a class="btn_question btn-info" href="#help_popup"><i class="fa fa-question"></i></a>
+            <a class="btn_credit btn-info" href="#credit_popup"><i class="fa fa-info"></i></a>
+            <a class="twitter_buttonbox button pulse" href="#twitter_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="kai_buttonbox button pulse" href="#kai_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="periscope_buttonbox button pulse" href="#periscope_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="vr_buttonbox button pulse" href="#vr_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="buzz_buttonbox button pulse" href="#buzz_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="snapchat_buttonbox button pulse" href="#snapchat_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="facebook_buttonbox button pulse" href="#facebook_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="ia_buttonbox button pulse" href="#ia_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="home_buttonbox button pulse" href="#home_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="youtube_buttonbox button pulse" href="#youtube_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+            <a class="instagram_buttonbox button pulse" href="#instagram_popup"><i class="fa fa-fw fa-info fa-lg"></i></a>
+        </div> 
+      
+      <!-- LIGHTBOX ELEMENTS -->
+          <div id="help_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/help.svg'>
+	         </div>
+          </div>
+      
+          <div id="credit_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/info.svg'>
+	         </div>
+          </div>
+      
+          <div id="vr_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/vr_popup.svg'>
+	         </div>
+          </div>
+          
+          <div id="home_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/home_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="youtube_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/youtube_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="snapchat_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/snapchat_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="instagram_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/instagram_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="twitter_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/twitter_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="facebook_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/facebook_popup.svg'>
+	         </div>
+          </div>
+       
+          <div id="ia_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/facebook_instantarticles_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="periscope_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/periscope_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="buzz_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/buzz_popup.svg'>
+	         </div>
+          </div>
+      
+          <div id="kai_popup" class="overlay">
+             <a class="close" href="#">&times;</a>
+	         <div class="popup">
+			    <img src='img/kd_popup.svg'>
+	         </div>
+          </div>
+
+      <!-- JS -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/fullscreen.js"></script>
+      <script src="js/prefixfree.min.js"></script>  
+
+  </body>
+</html>
